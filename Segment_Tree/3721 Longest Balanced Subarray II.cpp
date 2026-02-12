@@ -2,7 +2,6 @@
     Leetcode Link : https://leetcode.com/problems/longest-balanced-subarray-ii
 */
 
-/******************************************************** C++ ***************************************************************/
 // Approach-1 (Brute Force) - TLE
 // T.C : O(n^2)
 // S.C : O(n)
