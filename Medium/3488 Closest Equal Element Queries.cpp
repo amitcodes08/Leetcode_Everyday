@@ -1,7 +1,7 @@
 /*
     Leetcode Link : https://leetcode.com/problems/closest-equal-element-queries/
 */
-
+ 
 // Approach - Store in map and use binary search to find indices
 // T.C : O(Q * log(n))
 // S.C : O(n)
