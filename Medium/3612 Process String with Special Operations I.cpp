@@ -4,7 +4,7 @@
 
 
 // Approach : Simulation
-// TC : O(n)
+// TC : O(2^n)
 // SC : O(n)
 
 class Solution
