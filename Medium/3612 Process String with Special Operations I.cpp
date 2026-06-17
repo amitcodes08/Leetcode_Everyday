@@ -5,7 +5,7 @@
 
 // Approach : Simulation
 // TC : O(2^n)
-// SC : O(n)
+// SC : O(2^n)
 
 class Solution
 {
