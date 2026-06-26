@@ -3,7 +3,7 @@
 */
 
 // TC : O(n^2)
-// SC : O(1)
+// SC : O(n)
 
 class Solution
 {
