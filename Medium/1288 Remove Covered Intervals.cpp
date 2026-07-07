@@ -21,31 +21,17 @@ public:
 
         sort(intervals.begin(), intervals.end(), lambda);
 
-        int result = 0;
-        int first = -1;
-        int second = -1;
+        int count = 1;
+        int lastIntervalKaEnd = intervals[0][1];
 
-        for (int i = 0; i < n; ++i)
-        {
-            int l = intervals[i][0];
-            int r = intervals[i][1];
-
-            if (l <= first)
-                continue;
-
-            if (l > second)
-            {
-                result += 2;
-                second = r;
-                first = r - 1;
-            }
-            else
-            {
-                result += 1;
-                first = second;
-                second = r;
-            }
+    for(int i = 1; i < n; i++) {
+        if (lastIntervalKaEnd >= intervals[i][1]) {
+            continue;
         }
-        return result;
+        lastIntervalKaEnd = intervals[i][1];
+        count++;
+    }
+       
+        return count;
     }
 };
