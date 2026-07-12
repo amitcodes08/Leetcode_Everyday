@@ -1,7 +1,7 @@
 /*
     LeetCode Link : https://leetcode.com/problems/rank-transform-of-an-array
 */
-/ Approach - Sort and use map
+// Approach - Sort and use map
     // T.C : O(nlogn)
     // S.C : O(n)
     class Solution
